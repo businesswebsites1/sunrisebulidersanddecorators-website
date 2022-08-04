@@ -1,10 +1,10 @@
 * {
 	const resizeOps = () => {
-    document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
+    	document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
   }
 
-  resizeOps();
-  window.addEventListener("resize", resizeOps);
+  	resizeOps();
+  	window.addEventListener("resize", resizeOps);
 	
 	padding: 0;
 	margin: 0;
